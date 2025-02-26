@@ -1,0 +1,26 @@
+
+ 
+  .list-content {
+    border-left: 1px solid silver;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.02);
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+  }
+  
+ .list-content .list-name,.list-expand,.list-add,.list-delete{
+ cursor: pointer;
+ padding: 2px;
+}
+ .list-content .list-child{
+    margin-left: 2rem;
+}
+.list-content .list-name-icon-expand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: fit-content;
+    text-align: center;
+}
